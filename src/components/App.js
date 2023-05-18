@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <p>Button clicked {count} times</p>
-      <button onClick={handlClick}>Button</button>
+      <button onClick={handlhClick}>Button</button>
     </div>
   );
 };
