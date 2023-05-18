@@ -4,13 +4,13 @@ import "./../styles/App.css";
 const App = () => {
   const [count, setCount] = useState(0);
 
-  const handleClick = () => {
+  const handlClick = () => {
     setCount(count + 1);
   };
   return (
     <div>
       <p>Button clicked {count} times</p>
-      <button onClick={handleClick}>Button</button>
+      <button onClick={handlClick}>Button</button>
     </div>
   );
 };
