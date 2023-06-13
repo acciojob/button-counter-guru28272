@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 const ButtonCounter = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
+  // console.log("hi");
   const handleClick = () => {
     setCount(count + 1);
   };
